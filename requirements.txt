@@ -7,3 +7,6 @@ talib
 pynance
 textblob
 scikit-learn
+wordcloud
+vaderSentiment
+statsmodels

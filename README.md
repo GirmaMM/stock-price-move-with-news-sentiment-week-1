@@ -18,8 +18,8 @@ This project analyzes **financial news sentiment** and its correlation with stoc
 * **Raw data for sentiment analysis:** [https://drive.google.com/file/d/1x1BKCV5F6HpDQwnYfNM8kN517j6sHDSt/view?usp=drive_link](https://drive.google.com/file/d/1x1BKCV5F6HpDQwnYfNM8kN517j6sHDSt/view?usp=drive_link)
 
 ## Project Structure
+📂 stock-price-move-with-news-sentiment-week-1 ├── .vscode/ ├── .github/ │   └── workflows/ │       └── unittests.yml      # GitHub Actions workflow for unit tests ├── .gitignore                 # Files and directories to ignore in Git ├── requirements.txt           # Dependencies for Python environment ├── README.md                  # Project documentation ├── notebooks/ │   ├── correlation_analysis.py │   ├── eda_stock_news.ipynb  # Jupyter notebook for stock news analysis │   ├── quantitative_analysis.ipynb # Financial insights notebook ├── scripts/ │   ├── descriptive_analysis.py  # Analyzes news publications │   ├── sentiment_analysis.py  # Extracts sentiment scores │   ├── stock_indicator.py  # computte stock indicator metrics │   ├── ts_analysis.py  # Provides statistical time series insights │   ├── init.py │   ├── README.md  # Documentation for scripts directory
 
-*(Add your project structure here, e.g., a file tree or a list of key directories/files)*
 
 ## Installation & Setup
 
@@ -45,4 +45,10 @@ python scritps/sentiment_analysis.py
 python src/stock_indicators.py
 
 
-### ***Result & Insight
+
+**Improve Results & Insights Section**  
+```markdown
+## Results & Insights
+✔ Sentiment analysis reveals strong correlation between financial news and stock trends.
+✔ Positive headlines often align with stock price increases, while negative headlines signal potential declines.
+✔ Technical indicators, such as RSI and MACD, confirm market reactions to news sentiment.
